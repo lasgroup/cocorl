@@ -1,4 +1,4 @@
-# Constraint learning from demonstrations with unknown rewards
+# Convex Constraint Learning for Reinforcement Learning (CoCoRL)
 
 This repository contains code for the paper ["Learning Safety Constraints from Demonstrations with Unknown Rewards"](https://arxiv.org/abs/2305.16147). Here, we describe how to reproduce the experiments presented in the paper.
 
