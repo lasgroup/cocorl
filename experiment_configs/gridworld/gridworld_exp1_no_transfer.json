@@ -1,0 +1,33 @@
+{
+    "num_thetas": [1, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30,
+                   32, 34, 36, 38, 40, 42, 44, 46, 48, 50],
+    "num_points": 30,
+    "num_seeds": 100,
+    "env_kwargs": {
+        "width": 3,
+        "height": 3,
+        "num_goals": 2,
+        "num_forbidden": 3,
+        "num_constraints": 2,
+        "random_action_prob": 0.0,
+        "discount_factor": 0.9,
+        "ensure_feasibility": true,
+        "use_sparse_transitions": false
+    },
+    "task_transfer": false,
+    "env_transfer": false,
+    "num_new_thetas": 30,
+    "max_thetas": 100,
+    "new_theta_seed": 98321,
+    "method": [
+        "constraint_learning",
+        "vanilla_irl_max_margin",
+        "known_reward_irl_max_margin",
+        "shared_reward_irl_max_margin",
+        "vanilla_irl_max_ent",
+        "known_reward_irl_max_ent",
+        "shared_reward_irl_max_ent"
+    ],
+    "experiment_label": "gridworld_small_exp1",
+    "experiment_script": "src/constraint_learning/linear/gridworld_experiment.py"
+}

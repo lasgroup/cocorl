@@ -1,0 +1,17 @@
+{
+    "env_name": "IntersectAggressive-TruncateOnly-v0",
+    "env_goal": ["o1", "o2", "o3"],
+    "reward_mean": "[0, 0, 0, 0.1, -0.2, 0, 0, 0, 0]",
+    "reward_std": "[0, 0, 0, 0.1, 0.1, 0, 0, 0, 0]",
+    "iterations": 10,
+    "num_candidates": 200,
+    "num_elite": 20,
+    "num_trajectories": 20,
+    "num_jobs": 20,
+    "constraint_sort_method": "num_violations",
+    "solver_reinit": 10,
+    "write_demonstration": true,
+    "num_seeds": 500,
+    "experiment_script": "scripts/cross_entropy_demonstrations.py",
+    "experiment_label": "0422_ce_demonstrations_aggressive"
+}
